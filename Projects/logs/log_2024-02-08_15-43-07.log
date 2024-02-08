@@ -1,0 +1,29 @@
+2024-02-08 15:43:12,667 - INFO - Gillette page opened successfully.
+2024-02-08 15:43:13,390 - INFO - searchIcon #absolute
+2024-02-08 15:43:13,547 - INFO - Clicked searchIcon
+2024-02-08 15:43:13,660 - INFO - Clicked on Search icon successfully.
+2024-02-08 15:43:13,762 - ERROR - Error while entering search query: name 'traceback' is not defined
+2024-02-08 15:43:14,443 - ERROR - Error while submitting search: Error in Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='Razor']"}
+  (Session info: chrome=120.0.6099.224); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x564cd670af83 <unknown>
+#1 0x564cd63c3cf7 <unknown>
+#2 0x564cd641399e <unknown>
+#3 0x564cd6413aa1 <unknown>
+#4 0x564cd645ed64 <unknown>
+#5 0x564cd643d0dd <unknown>
+#6 0x564cd645c006 <unknown>
+#7 0x564cd643ce53 <unknown>
+#8 0x564cd6404dd4 <unknown>
+#9 0x564cd64061de <unknown>
+#10 0x564cd66cf531 <unknown>
+#11 0x564cd66d3455 <unknown>
+#12 0x564cd66bbf55 <unknown>
+#13 0x564cd66d40ef <unknown>
+#14 0x564cd669f99f <unknown>
+#15 0x564cd66f8008 <unknown>
+#16 0x564cd66f81d7 <unknown>
+#17 0x564cd670a124 <unknown>
+#18 0x7b7770c0dac3 <unknown>
+
+2024-02-08 15:43:27,002 - INFO - Scrolling down and clicking on Styles.

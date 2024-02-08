@@ -6,7 +6,7 @@ class Screenshot:
     def capture_screenshot(driver):
         print("capturing screenshotpath")
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-        screenshot_dir = "/Users/tamil/Desktop/PythonSeleniumDemo/Projects/screenshot"
+        screenshot_dir = "/home/coder/project/workspace/Projects/screenshot"
 
         if not os.path.exists(screenshot_dir):
             os.makedirs(screenshot_dir)

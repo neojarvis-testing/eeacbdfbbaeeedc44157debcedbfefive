@@ -8,7 +8,7 @@ from utilities.webDriverHelper import WebDriverHelper
 class GillettePage:
     def __init__(self, driver):
         self.driver = driver
-        self.excel_reader = ExcelReader('/Users/tamil/Desktop/PythonSeleniumDemo/Projects/data/Datasheet.xlsx')  
+        self.excel_reader = ExcelReader('/home/coder/project/workspace/Projects/data/Datasheet.xlsx')  
         self.search_queries = self.get_search_queries()  
 
     def get_search_queries(self):

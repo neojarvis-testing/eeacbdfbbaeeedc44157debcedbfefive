@@ -3,7 +3,7 @@ import datetime
 
 class AllureReporter:
     def __init__(self):
-        self.report_directory = "/Users/tamil/Desktop/PythonSeleniumDemo/Projects/Report"
+        self.report_directory = "/home/coder/project/workspace/Projects/Report"
 
     def generate_report(self):
         timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")

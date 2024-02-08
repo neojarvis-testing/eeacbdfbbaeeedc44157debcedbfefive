@@ -14,7 +14,7 @@ def configure_logger():
     console_handler.setLevel(logging.INFO)
 
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    log_dir = "/Users/tamil/Desktop/PythonSeleniumDemoBDD/Projects/logs"
+    log_dir = "/home/coder/project/workspace/Projects/logs"
 
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)

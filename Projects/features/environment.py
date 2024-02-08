@@ -7,7 +7,7 @@ def before_all(context):
     options = webdriver.ChromeOptions()
     print("Instance created")
     options.add_argument("--start-maximized")
-    remote_url = "https://4444-seleniuminstance3.premiumproject.examly.io"
+    remote_url = "http://localhost:4444"
     base_driver = webdriver.Remote(command_executor=remote_url, options=options)
     context.driver = EventFiringWebDriver(base_driver, event_handler)
 

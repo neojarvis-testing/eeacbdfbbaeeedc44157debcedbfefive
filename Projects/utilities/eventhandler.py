@@ -18,8 +18,7 @@ def configure_logger(log_file_path):
 
 class EventHandler(AbstractEventListener):
     def __init__(self):
-        # log_dir = "/home/coder/project" 
-        log_dir = "/Users/tamil/Desktop/PythonSeleniumDemoBDD/Projects" 
+        log_dir = "/home/coder/project"  
         if not os.path.exists(log_dir):
             os.makedirs(log_dir)
 

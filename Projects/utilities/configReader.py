@@ -3,7 +3,7 @@ import configparser
 class ConfigReader:
     def __init__(self):
         self.config = configparser.ConfigParser()
-        self.config.read('/Users/tamil/Desktop/PythonSeleniumDemoBDD/Projects/config/config.properties')
+        self.config.read('/home/coder/project/workspace/Projects/config/config.properties')
 
     def get_url(self):
         return self.config['DEFAULT']['url']
